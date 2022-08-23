@@ -16,6 +16,7 @@ public class C05_SolaKaydirma {
 
         int temp = arr[0]; // 2'yi sola kaydýrdýðýmýzda 1 kaybolmasýn diye 1'i geçici olarak temp'e atadýk
 
+        System.out.println(Arrays.toString(arr)); // [1, 2, 3]
 
         for (int i = 0; i < arr.length-1; i++) {
             arr [i] = arr [i+1]; // kaydýrma yapmak için index'i 1 olaný 0'a, 2 olaný 1'e atamalýyýz
@@ -28,7 +29,7 @@ public class C05_SolaKaydirma {
 
         // yukarýda deðiþtirdiðimiz array'i ilk durumuna getirmek için saða kaydýralým
 
-        temp = arr[arr.length-1];  //[1]
+        temp = arr[arr.length-1];  // [1]
 
         for (int i = arr.length-1; i >0 ; i--) {   // index'i 1 olaný 2'ye, 0 olaný da 1'ye atadýk
             arr[i] = arr[i-1];

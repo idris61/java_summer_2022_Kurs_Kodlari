@@ -8,6 +8,17 @@ public class C02_Arrays {
         /*
         Array : Ayný data türündeki birden fazla deðer veya objeyi barýndýrabilen Java objeleridir.
 
+        Array’lere kadar primitive data turleri ve String kullandik. Ancak bu data turlerine sadece bir deger alabiliyordu.
+        Oysa gelismis bir uygulamada listeler olusturmamiz ve bunlari yonetmemiz gerekir.
+
+        Ornegin bir okul uygulamasi yapacak olsak, sinif listeleri, ogretmen ve ogrenci listeleri, notlar vb..
+        Liste olarak tutmamiz gereken bir cok data olacaktir.
+
+        Java, birden fazla veriyi store edebilen farkli yapilar olusturmustur.
+        Bunlardan hangisini kullanacagimiza yapacagimiz uygulamadaki ihtiyaclara gore karar veririz.
+
+
+
         1 - Bir variable'in array olduðunu belirtmek için [] kullanýlýr.
             int sayi3[]={5,6,7,10}; int deðerler barýndýran bir array
 
@@ -61,7 +72,7 @@ public class C02_Arrays {
          6- Bir String'i array'a çevirmek;
 
          */
-            String str = "Java cok guzel";                      // parçalara bölmek istersek, (split methodu kullanýlýr)
+            String str = "Java cok guzel";                       // parçalara bölmek istersek, (split methodu kullanýlýr)
             String[] kelimeler = str.split(" ");            // kelimelere ayýrmak
             System.out.println(Arrays.toString(kelimeler));      // [Java, cok, guzel]
 

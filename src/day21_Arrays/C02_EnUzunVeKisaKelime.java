@@ -26,7 +26,7 @@ public class C02_EnUzunVeKisaKelime {
                 enKisaKelime = isimler[i];
             }
         }
-        System.out.println("Arraydeki en uzun kelime : " + enUzunKelime);
-        System.out.println("Arraydeki en kisa kelime : " + enKisaKelime);
+        System.out.println("Arraydeki en uzun kelime : " + enUzunKelime); // Hayrullah
+        System.out.println("Arraydeki en kisa kelime : " + enKisaKelime); // Onur
     }
 }

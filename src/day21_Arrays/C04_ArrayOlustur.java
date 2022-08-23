@@ -21,14 +21,14 @@ public class C04_ArrayOlustur {
     public static int[] arrayOlustur() {
 
         Scanner scan = new Scanner(System.in);
-        System.out.println("Kac elemanli bir array olusturmami istersiniz"); // kullanýcýdan oluþturacaðýmýz array in
+        System.out.println("Kac elemanli bir array olusturmami istersiniz : "); // kullanýcýdan oluþturacaðýmýz array in
                                                                              // uzunluðunu alalým
-
         int uzunluk = scan.nextInt();
+
         int [] olusturulan = new int[uzunluk]; // kullanýcýdan aldýðýmýz uzunluða göre int array oluþturduk.
 
         for (int i = 0; i < uzunluk; i++) {    // uzunluk sayýsýnca, kullanýcýdan eleman alalým
-            System.out.println(i + ". index icin sayi giriniz");
+            System.out.println(i + ". index icin sayi giriniz : ");
             olusturulan [i] = scan.nextInt();  // kullanýcýdan aldýðýmýz elemaný olusturulan arrayin [i]. indexine atadýk
 
 

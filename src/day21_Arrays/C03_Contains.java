@@ -16,32 +16,25 @@ public class C03_Contains {
 
         boolean sonuc = contains(isimler,arananIsim);// true/false döndüreceði için boolean sonuc adýnda
                                                      // contains methodu oluþturmalýyýz.
-
         if  (sonuc) { // sonucu yazdýralým
             System.out.println("Girilen isim listede var");
         }else {
             System.out.println("Girilen isim listede yok");
         }
-
     }
     public static boolean contains(String[] isimler, String arananIsim){
         boolean sonucMethod = false; // deðer atamadýðýmýzda sonuç olmadýðý için return kýsmýnda itiraz oluþuyor.
                                     // bizde false atadýk
-
         for (int i = 0; i < isimler.length; i++) {
 
             if (isimler[i].equalsIgnoreCase(arananIsim)){ // isimlerin [i] indexindeki isim arananÝsme eþitse sonuç true olacak
                                                           // büyük/küçük harf sýkýntý olmasýn diye equalsIgnoreCase kullandýk
                 sonucMethod = true;
-
             }
-
         }
-
         return sonucMethod;
     }
 }
            /*
-           Array 'de contains diye bir method yok. String de vardý.
-           þimdi kendimiz Array'de contains methodu oluþturduk.
+           Array 'de contains diye bir method yok. String de vardý. þimdi kendimiz Array'de contains methodu oluþturduk.
             */
