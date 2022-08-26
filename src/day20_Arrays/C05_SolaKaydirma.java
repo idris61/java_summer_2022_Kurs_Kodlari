@@ -28,11 +28,13 @@ public class C05_SolaKaydirma {
         System.out.print(Arrays.toString(arr));    // [2, 3, 1]
 
         // yukarýda deðiþtirdiðimiz array'i ilk durumuna getirmek için saða kaydýralým
+        // [2, 3, 1]       ==> [1, 2, 3]
 
         temp = arr[arr.length-1];  // [1]
 
         for (int i = arr.length-1; i >0 ; i--) {   // index'i 1 olaný 2'ye, 0 olaný da 1'ye atadýk
             arr[i] = arr[i-1];
+
 
         }
         System.out.println(Arrays.toString(arr)); // [2, 2, 3]

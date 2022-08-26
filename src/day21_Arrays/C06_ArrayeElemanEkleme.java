@@ -12,6 +12,7 @@ public class C06_ArrayeElemanEkleme {
 
         takimListesi= C05_ArrayeElementEkleme.elemanEkle(takimListesi,eklenecekIsim);
         System.out.println(Arrays.toString(takimListesi));
+
     }
 }
 

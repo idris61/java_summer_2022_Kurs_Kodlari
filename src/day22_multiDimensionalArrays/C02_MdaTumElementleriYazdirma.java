@@ -41,7 +41,9 @@ public class C02_MdaTumElementleriYazdirma {
         for (int i = 0; i < sayilar.length; i++) {    // dinamik olmasý için "sayilar.length" e göre yaptýk
                                                       // outer array'in lenght'ine kadar gitmeli. (i < sayilar.length)
 
-            sayilar[i] ===> bize 1. arrayi {1,5,6,9,},--- 2. arrayi {2,5} --- ve 3. arrayi{3,1,6} getirir.
+            sayilar[i] ===> bize 1. arrayi {1,5,6,9,},
+                                 2. arrayi {2,5}
+                              ve 3. arrayi{3,1,6} getirir.
                             bize array deðil, element lazým.
                             bize 2. bir deðiþken lazým. bunun için 2. bir for loop oluþturmalýyýz.
 
