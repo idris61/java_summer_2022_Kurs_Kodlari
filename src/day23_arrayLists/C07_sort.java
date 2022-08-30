@@ -2,6 +2,7 @@ package day23_arrayLists;
 
 import java.util.ArrayList;
 import java.util.Collections;
+import java.util.Comparator;
 import java.util.List;
 
 public class C07_sort {
@@ -22,6 +23,8 @@ public class C07_sort {
          bunun yerine Collections class'indan sort method'unu kullaniyoruz
          bu method listemizi natural order'a gore siralar. (doðal sýralama)
          */
+        urunler.sort((Comparator.comparing(String::length)));
+        System.out.println(urunler);
 
     }
 }

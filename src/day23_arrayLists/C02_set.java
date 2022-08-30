@@ -61,12 +61,12 @@ public class C02_set {
 
         temp=urunler.indexOf(silinecekUrun);
 
-        silinenUrun=urunler.set(temp,yeniUrun);
-        eskiUrunler.add(silinenUrun);
+        urunler.set(temp,yeniUrun);
+        eskiUrunler.add(silinecekUrun);
 
-        System.out.println("urunler listesi : " + urunler); // [Nutella, Biskrem, Findik, Kahve]
+        System.out.println("* urunler listesi : " + urunler); // [Nutella, Biskrem, Findik, Kahve]
 
-        System.out.println("eski urunler listesi : " + eskiUrunler); // [Ikram, Cay, Cekirdek]
+        System.out.println("* eski urunler listesi : " + eskiUrunler); // [Ikram, Cay, Cekirdek]
 
     }
 }
