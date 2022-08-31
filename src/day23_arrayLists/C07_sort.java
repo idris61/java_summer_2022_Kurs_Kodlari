@@ -26,6 +26,8 @@ public class C07_sort {
         urunler.sort((Comparator.comparing(String::length)));
         System.out.println(urunler);
 
+
+
     }
 }
 
