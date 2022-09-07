@@ -35,6 +35,14 @@ public class C03_TekrarEdenSayilar {
             }
         }
         System.out.println(tekrarEdenler); // [3, 5, 6]
+
+        int[] arr1 ={2,3,5,6};
+        System.out.println(Arrays.toString(arr1)); //[2, 3, 5, 6]
+
+        for (int i = 0; i < arr1.length; i++) {
+            System.out.print(arr1[i]+ " ");  // 2 3 5 6
+        }
+
     }
 }
 
